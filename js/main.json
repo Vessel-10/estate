@@ -1,0 +1,148 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "price": "MK 650,000,000",
+      "address": "Area 43 Executive, Lilongwe",
+      "description": "Luxurious 4-bedroom executive residence in a prime Lilongwe neighborhood. Features smart home technology, modern finishes, and extensive security.",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 3200,
+      "image": "https://images.unsplash.com/photo-1570129477492-45a003537e1f?w=400&h=300&fit=crop",
+      "alt": "Executive Mansion, Area 43",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "price": "MK 285,000,000",
+      "address": "Namiwawa Suburbs, Blantyre",
+      "description": "Stunning 3-bedroom property in the upscale Blantyre suburbs, offering privacy, beautiful gardens, and resort-style living.",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2100,
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop",
+      "alt": "Blantyre Suburb Home",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "price": "MK 150,000,000",
+      "address": "Area 10, Lilongwe",
+      "description": "Contemporary design with energy-efficient features, a beautiful landscaped garden, and centrally located near embassies.",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1850,
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop",
+      "alt": "Modern Home, Area 10",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "price": "MK 98,000,000",
+      "address": "Sunnyside Residential, Blantyre",
+      "description": "Perfect family home with spacious rooms, updated kitchen, and large backyard in a quiet Blantyre residential area.",
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2200,
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=300&fit=crop",
+      "alt": "Family Home, Sunnyside",
+      "isFeatured": false
+    },
+    {
+      "id": 5,
+      "price": "MK 55,000,000",
+      "address": "📍 Mandala Old Town, Blantyre",
+      "description": "Charming cottage-style home with mature trees and vibrant neighborhood community near Blantyre's Old Town.",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1650,
+      "image": "https://images.unsplash.com/photo-1520444881614-b1d4e04e214e?w=400&h=300&fit=crop",
+      "alt": "Mandala Cottage",
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "price": "MK 450,000,000",
+      "address": "Senga Bay, Lake Malawi",
+      "description": "Luxurious waterfront property with private beach access, infinity pool, and premium finishes on Lake Malawi.",
+      "beds": 5,
+      "baths": 3,
+      "sqft": 3500,
+      "image": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&h=300&fit=crop",
+      "alt": "Senga Bay Waterfront Estate",
+      "isFeatured": false
+    },
+    {
+        "id": 7,
+        "price": "MK 125,000,000",
+        "address": "City Centre Lofts, Lilongwe",
+        "description": "Trendy urban loft with exposed brick, high ceilings, and vibrant neighborhood culture in Lilongwe's main business district.",
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1400,
+        "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=400&h=300&fit=crop",
+        "alt": "Urban Loft",
+        "isFeatured": false
+    },
+    {
+        "id": 8,
+        "price": "MK 580,000,000",
+        "address": "Ntcheu Hills Estate, Central Region",
+        "description": "Grand estate on vast acreage with manicured grounds, perfect for a private retreat or large agricultural investment.",
+        "beds": 6,
+        "baths": 4,
+        "sqft": 4800,
+        "image": "https://images.unsplash.com/photo-1497396373720-1260b3da6dff?w=400&h=300&fit=crop",
+        "alt": "Ntcheu Hills Estate",
+        "isFeatured": false
+    },
+    {
+        "id": 9,
+        "price": "MK 185,000,000",
+        "address": "Area 12, Lilongwe",
+        "description": "Modern minimalist home with smart home integration and sustainable design features in the desirable Area 12.",
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1950,
+        "image": "https://images.unsplash.com/photo-1580374177193-ddb524293851?w=400&h=300&fit=crop",
+        "alt": "Area 12 Modern Home",
+        "isFeatured": false
+    },
+    {
+        "id": 10,
+        "price": "MK 80,000,000",
+        "address": "📍 Chilomoni Township, Blantyre",
+        "description": "Serene suburban home perfect for families with great schools nearby and easy access to Blantyre amenities.",
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1900,
+        "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=400&h=300&fit=crop",
+        "alt": "Chilomoni Suburban Haven",
+        "isFeatured": false
+    },
+    {
+        "id": 11,
+        "price": "MK 45,000,000",
+        "address": "Kawale Investment, Lilongwe",
+        "description": "Prime investment property in high-growth area with strong rental potential, ideal for a multi-unit conversion.",
+        "beds": 2,
+        "baths": 1,
+        "sqft": 1100,
+        "image": "https://images.unsplash.com/photo-1500382017468-f049863256f0?w=400&h=300&fit=crop",
+        "alt": "Investment Property",
+        "isFeatured": false
+    },
+    {
+        "id": 12,
+        "price": "MK 320,000,000",
+        "address": "Area 6 Gated Community, Lilongwe",
+        "description": "Exclusive gated community townhouse with premium amenities and concierge service in one of Lilongwe's most secure areas.",
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2600,
+        "image": "https://images.unsplash.com/photo-1520708542814-a01b13b50c1f?w=400&h=300&fit=crop",
+        "alt": "Luxury Townhouse, Area 6",
+        "isFeatured": false
+    }
+  ]
+}

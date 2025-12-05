@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Listings | Sarah Martinez Real Estate</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="../index.html" class="logo">🏡 Real Estate Pro</a>
+            <button class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="listings.html" class="active">Listings</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="neighborhoods.html">Neighborhoods</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 300px;">
+        <div class="hero-content">
+            <h1>Our Property Listings</h1>
+            <p>Discover exceptional properties across the region</p>
+        </div>
+    </section>
+
+    <!-- Listings -->
+    <section>
+        <div class="container">
+            <h2>Available Properties</h2>
+            <div class="grid grid-3" id="all-listings-container">
+                </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section-alt">
+        <div class="container text-center">
+            <h2>Interested in Any of These Properties?</h2>
+            <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 2rem;">
+                Schedule a showing or get more information about any listing.
+            </p>
+            <a href="contact.html" class="btn">Schedule a Showing</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="app-footer"></footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
