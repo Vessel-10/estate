@@ -130,7 +130,6 @@ const App = {
         const date = formData.get('date').trim();
         const time = formData.get('time').trim();
         
-        // --- Custom Validation Check ---
         if (!firstName || !date || !time) {
             messageDiv.textContent = 'Please fill out all required fields (First Name, Date, and Time).';
             messageDiv.style.backgroundColor = '#f8d7da'; // red/error color
@@ -138,22 +137,18 @@ const App = {
             messageDiv.style.border = '1px solid #f5c6cb';
             messageDiv.style.display = 'block';
 
-            // Clear the error message after 5 seconds
             setTimeout(() => {
                 messageDiv.style.display = 'none';
             }, 5000);
-            return; // STOP submission if validation fails
+            return; 
         }
-        // --- End Custom Validation Check ---
 
-        // Submission Success Logic
         messageDiv.textContent = `Thank you, ${firstName}! Your showing has been scheduled for ${date} at ${time}. I'll confirm via email shortly.`;
         messageDiv.style.backgroundColor = '#d4edda'; // green success color
         messageDiv.style.color = '#155724';
         messageDiv.style.border = '1px solid #c3e6cb';
         messageDiv.style.display = 'block';
         
-        // Reset form after a delay
         setTimeout(() => {
             form.reset();
             messageDiv.style.display = 'none';
