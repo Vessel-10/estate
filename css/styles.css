@@ -26,7 +26,6 @@ body {
     background-color: var(--white);
 }
 
-/* Header & Navigation */
 header {
     background: var(--white);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -52,7 +51,6 @@ nav {
     text-decoration: none;
 }
 
-/* Hamburger Menu */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -124,7 +122,6 @@ nav {
     width: 100%;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
     color: var(--white);
@@ -245,14 +242,12 @@ nav {
     }
 }
 
-/* Container */
 .container {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 5%;
 }
 
-/* Section Styles */
 section {
     padding: 60px 5%;
 }
@@ -278,7 +273,6 @@ section h2::after {
     border-radius: 2px;
 }
 
-/* Grid Layouts */
 .grid {
     display: grid;
     gap: 2rem;
@@ -293,7 +287,6 @@ section h2::after {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
-/* Property Card */
 .property-card {
     background: var(--white);
     border-radius: 10px;
@@ -388,7 +381,6 @@ section h2::after {
     margin-top: 0.3rem;
 }
 
-/* Agent Card */
 .agent-card {
     text-align: center;
     padding: 2rem;
@@ -417,7 +409,6 @@ section h2::after {
     margin-bottom: 1rem;
 }
 
-/* Trust Signals */
 .trust-signals {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -445,7 +436,6 @@ section h2::after {
     font-weight: 500;
 }
 
-/* Testimonials */
 .testimonial {
     background: var(--light-bg);
     padding: 2rem;
@@ -476,7 +466,6 @@ section h2::after {
     margin-bottom: 0.5rem;
 }
 
-/* Forms */
 .form-group {
     margin-bottom: 1.5rem;
 }
@@ -543,7 +532,6 @@ textarea {
     background-color: #229954;
 }
 
-/* Contact Info */
 .contact-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -572,7 +560,6 @@ textarea {
     color: var(--text-light);
 }
 
-/* About Section Content */
 .about-intro {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -623,7 +610,6 @@ textarea {
     color: var(--text-light);
 }
 
-/* Certifications */
 .certifications {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -654,12 +640,10 @@ textarea {
     font-size: 0.9rem;
 }
 
-/* Footer */
 footer {
     background-color: var(--primary-color);
     color: var(--white);
     padding: 3rem 5%;
-    /* margin-top: 4rem; */
 }
 
 .footer-content {
@@ -866,7 +850,6 @@ footer {
     }
 }
 
-/* Utility Classes */
 .text-center {
     text-align: center;
 }
@@ -895,7 +878,6 @@ footer {
     gap: 0;
 }
 
-/* Neighborhood Section */
 .neighborhood-map {
     border-radius: 10px;
     overflow: hidden;
